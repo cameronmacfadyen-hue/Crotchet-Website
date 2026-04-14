@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Crochet Wardrobe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Crochet Closet</h1>
+        <p>Click a cabinet to peek inside...</p>
+    </header>
+
+    <div class="wardrobe">
+        <div class="cabinet" onclick="toggleCabinet(this)">
+            <div class="cabinet-door">About Me</div>
+            <div class="content">
+                <p>Hi! I'm a crochet enthusiast who loves turning yarn into magic. Every stitch tells a story...</p>
+            </div>
+        </div>
+
+        <div class="cabinet" onclick="toggleCabinet(this)">
+            <div class="cabinet-door">Photos</div>
+            <div class="content">
+                <div class="photo-grid">
+                    <div class="photo-placeholder">Project 1</div>
+                    <div class="photo-placeholder">Project 2</div>
+                    <div class="photo-placeholder">Project 3</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cabinet" onclick="toggleCabinet(this)">
+            <div class="cabinet-door">Patterns</div>
+            <div class="content"><p>Coming soon: My favorite stitch patterns.</p></div>
+        </div>
+
+        <div class="cabinet" onclick="toggleCabinet(this)">
+            <div class="cabinet-door">Shop</div>
+            <div class="content"><p>Browse my handmade collection.</p></div>
+        </div>
+
+        <div class="cabinet" onclick="toggleCabinet(this)">
+            <div class="cabinet-door">Tips</div>
+            <div class="content"><p>How to choose the perfect hook size.</p></div>
+        </div>
+
+        <div class="cabinet" onclick="toggleCabinet(this)">
+            <div class="cabinet-door">Contact</div>
+            <div class="content"><p>Let's talk yarn! Email me at hello@crochet.com</p></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
